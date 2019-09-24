@@ -11,5 +11,14 @@ public class Test
     public static void main(String[] args)
     {
         System.out.println("BitBucket example");
+
+        m1();
     }
+
+    private static void m1()
+    {
+        System.out.println("inside m1 method");
+    }
+
+
 }
